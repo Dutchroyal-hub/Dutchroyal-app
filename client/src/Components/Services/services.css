@@ -1,0 +1,29 @@
+.ourServices{
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.servicesBody{
+    display: flex;
+    justify-content: center;
+}
+
+.servicesCard{
+    max-width: 360px;
+    height: 300px;
+    background: #203353;
+}
+
+.servicesHeader{
+    font-size: 22px;
+    font-weight: 700;
+    color: #EAEEF5;
+}
+
+.servicesTxt{
+    font-size: 14px;
+    font-weight: normal;
+    color: #EAEEF5;
+}

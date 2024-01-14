@@ -1,0 +1,153 @@
+.rightGrowth{
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+    background: #D4DFF2;
+    padding: 35px 0;
+}
+
+@media (max-width: 768px) {
+    .rightGrowth{
+       display: none;
+    }
+}
+
+.rightGrowthMobile{
+    display: none
+}
+
+@media (max-width: 768px) {
+    .rightGrowthMobile{
+       display: block;
+       margin-top: 200px;
+        width: 100%;
+        height: auto;
+        background: #D4DFF2;
+        padding: 35px 0;
+    }
+}
+
+.growthRight{
+    flex: 1;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: none;
+}
+
+.growthImage{
+    width: 100%;
+    height: 400px;
+    border-radius: 30px 0 30px 0;
+    background-image: url(../../Images/Growth\ Image.jpg);
+    background-size: cover;
+    position: absolute;
+    top: -40%;
+    left: 0;
+}
+
+.growthDeets{
+    flex: 1;
+}
+
+.findRightGrowth{
+    font-size: 36px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.findRightGrowthDeets{
+    font-size: 14px;
+    color: #203353;
+}
+
+.growthBtn{
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #EAEEF5;
+    background: #203353;
+    font-weight: 700;
+}
+
+.infoStats{
+    margin-top: 100px;
+}
+
+.statsFlex{
+    flex: 1;
+}
+
+.statsBox1{
+    width: 50%;
+    height: 200px;
+    background: #203353;
+    color: #EAEEF5;
+    border-radius: 60px 0 60px 0;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .statsBox1{
+       height: auto;
+    }
+}
+
+.statsTxt{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.statsTxt1{
+  font-size: 20px;
+  font-weight: 700;  
+}
+
+.statsBox2{
+    width: 50%;
+    height: 200px;
+    background: #203353;
+    color: #EAEEF5;
+    border-radius: 60px 0 60px 0;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .statsBox2{
+       height: auto;
+    }
+}
+
+
+.proService{
+    flex: 1;
+}
+
+.provideServices{
+    width: 100%;
+    height: 200px;
+    background: #203353;
+    color: #EAEEF5;
+    border-radius: 60px 0 60px 0;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .provideServices{
+        margin-top: 20px;
+       height: auto;
+    }
+}
+
+
+.provideServices span{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+@media (max-width: 768px) {
+    .provideServices span{
+       font-size: 30px;
+    }
+}

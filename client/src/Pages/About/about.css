@@ -1,0 +1,170 @@
+.aboutHero{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../Images/Hero\ Image.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.aboutOverlay{
+    width: 100%;
+    height: 400px;
+    background: rgba(32, 51, 83, 0.6);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.aboutHead{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.abtDutchFlex1{
+    flex: 6;
+}
+
+.abtDutchFlex2{
+    flex: 6;
+}
+
+.abtDutchHead{
+    font-size: 36px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.abtDutchBody{
+    font-size: 14px;
+    font-weight: 400;
+    color: #203353;
+}
+
+.abtDutchImage{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../Images/teamwork-background-illustration_1284-20521.webp);
+    background-size: cover;
+    border-radius: 30px 0 30px 0;
+}
+
+.infoStats{
+    margin-top: 50px;
+}
+
+.statsFlex{
+    flex: 1;
+}
+
+.statsBox1{
+    width: 50%;
+    height: 200px;
+    background: #203353;
+    color: #EAEEF5;
+    border-radius: 60px 0 60px 0;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .statsBox1{
+       height: auto;
+    }
+}
+
+.statsTxt{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.statsTxt1{
+  font-size: 20px;
+  font-weight: 700;  
+}
+
+.statsBox2{
+    width: 50%;
+    height: 200px;
+    background: #203353;
+    color: #EAEEF5;
+    border-radius: 60px 0 60px 0;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .statsBox2{
+       height: auto;
+    }
+}
+
+
+.proService{
+    flex: 1;
+}
+
+.provideServices{
+    width: 100%;
+    height: 200px;
+    background: #203353;
+    color: #EAEEF5;
+    border-radius: 60px 0 60px 0;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .provideServices{
+        margin-top: 20px;
+       height: auto;
+    }
+}
+
+
+.provideServices span{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+@media (max-width: 768px) {
+    .provideServices span{
+       font-size: 30px;
+    }
+}
+
+.abtMission{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.abtDutchFlexMission1{
+    flex: 6;
+}
+
+.abtDutchFlexMission2{
+    flex: 6;
+}
+
+.abtDutchMissionhHead{
+    font-size: 36px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.abtDutchMissionBody{
+    font-size: 14px;
+    font-weight: 400;
+    color: #203353;
+}
+
+.abtDutchMissionImage{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../Images/business-group-people-illustration_52683-34770.webp);
+    background-size: cover;
+    border-radius: 30px 0 30px 0;
+}

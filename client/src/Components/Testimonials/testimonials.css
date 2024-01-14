@@ -1,0 +1,119 @@
+.testBackground{
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../../Images/Group\ 43.png);
+    background-size: cover;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .testBackground{
+        display: none;
+    }
+}
+
+.testBackgroundMobile{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .testBackgroundMobile{
+        margin-top: 140px;
+        padding-bottom: 40px;
+        width: 100%;
+        height: auto;
+        background-image: url(../../Images/Group\ 43.png);
+        background-size: cover;
+        display: block;
+        overflow: hidden;
+    }
+}
+
+.testDeets{
+    flex: 1;
+}
+
+.testHeader{
+    font-size: 22px;
+    font-weight: 700;
+    color: #EAEEF5;
+}
+
+.testTxt{
+    font-size: 14px;
+    font-weight: normal;
+    color: #EAEEF5;
+}
+
+.testName{
+    font-size: 18px;
+    font-weight: 700;
+    color: #EAEEF5;
+}
+
+.testImgBox{
+    flex: 1;
+}
+
+.testBox{
+    width: 310px;
+    height: 280px;
+    border: 6px solid #EAEEF5;
+    border-radius: 70px;
+    object-fit: cover;
+    transform: rotate(40deg);
+    overflow: hidden;
+}
+
+.testCir{
+    margin-top: 60px;
+}
+
+.testCircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #9BADCB;
+    cursor: pointer;
+}
+
+.testCircle:hover{
+    width: 10px;
+    height: 10px;
+    background: #EAEEF5;
+}
+
+.testImgMobile{
+    position: relative;
+    width: 200px;
+    height: 190px;
+    background: none;
+}
+
+.testBoxMobile{
+    width: 200px;
+    height: 190px;
+    border: 6px solid #EAEEF5;
+    border-radius: 40px;
+    object-fit: cover;
+    transform: rotate(40deg);
+    position: absolute;
+    top: -30%;
+    left: 0;
+}
+
+.activeSlide{
+    transform: translateX(0);
+}
+
+.nextSlide{
+    transform: translateX(100%);
+}
+
+.lastSlide{
+    transform: translateX(-100%);
+}

@@ -1,0 +1,113 @@
+.heroBox{
+    width: 100%;
+    height: auto;
+    background-image: url(../../Images/Hero\ Image.png);
+    background-size: cover;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .heroBox{
+        padding: 10px;
+    }
+}
+
+.heroItemRight{
+    flex: 6;
+}
+
+.heroItemLeft{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroTxt{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+@media (max-width: 768px) {
+    .heroTxt{
+        font-size: 40px;
+    }
+}
+
+.heroImg{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .heroImg{
+        display: none;
+    }
+}
+
+.heroForm{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .heroForm{
+        display: block;
+    }
+}
+
+.heroForm > input{
+    width: 48%;
+    height: 54px;
+    border: 1px solid #203353;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .heroForm > input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+.searchIcon{
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: none;
+}
+
+.heroForm > button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: none;
+}
+
+.heroBtn{
+    padding: 8px 15px;
+    background: #203353;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .heroBtn{
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,85 @@
+.footer{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    background: #203353;
+    /* background-image: url(../../Images/Group\ 40.png);
+    background-size: cover; */
+}
+
+.footerBody{
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footerItems{
+    width: 25%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.logoHeader{
+    font-size: 30px;
+    font-weight: 700;
+    color: #EAEEF5;
+}
+
+.logoTxt{
+    font-size: 14px;
+    font-weight: normal;
+    color: #EAEEF5;
+    margin-top: 25px;
+}
+
+.footerIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;  
+}
+
+.footerTitle{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #EAEEF5;
+    margin: 10px 0px;
+}
+
+.footerList{
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+.footerListItem{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #EAEEF5;
+}
+
+.footerBottom{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #EAEEF5;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1085px)  {
+    .footerItems{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    .footerItems{
+        width: 100%;
+    }
+}

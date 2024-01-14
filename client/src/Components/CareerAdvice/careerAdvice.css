@@ -1,0 +1,58 @@
+.adviceSection{
+    width: 100%;
+    height: auto;
+    background: #D4DFF2;
+    margin-top: 80px;
+    padding: 70px 0;
+}
+
+.careerHeader{
+    font-size: 30px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.careerTxt{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #203353;
+}
+
+.careerBody{
+    display: flex;
+    justify-content: center;
+}
+
+.careerCard{
+    width: 380px;
+    height: auto;
+    background: #fff;
+}
+
+.careerImg{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.careerCardHeader{
+    font-size: 16px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.careerCardTxt{
+    font-size: 14px;
+    font-weight: normal;
+    color: #222;
+}
+
+.careerBtn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #EAEEF5;
+    background: #203353;
+    font-weight: 700;
+}

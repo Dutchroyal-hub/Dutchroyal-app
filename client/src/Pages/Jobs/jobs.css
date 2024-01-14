@@ -1,0 +1,159 @@
+.jobsHero{
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    background-image: url(../../Images/Hero\ Image.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobForm{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .jobForm{
+        display: block;
+    }
+}
+
+.jobForm > input{
+    width: 48%;
+    height: 54px;
+    border: 1px solid #203353;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .jobForm > input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+.jobForm > button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: none;
+}
+
+.jobsBtn{
+    padding: 8px 15px;
+    background: #203353;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .jobsBtn{
+        margin-top: 15px;
+    }
+}
+
+.jobHeader{
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.jobsTxt{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #203353;
+}
+
+.jobsBody{
+    display: flex;
+    justify-content: center;
+}
+
+.jobsCard{
+    max-width: 298px;
+    height: 300px;
+    background: #D4DFF2;
+}
+
+.jobsHeader{
+    font-size: 22px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.jobTxt{
+    font-size: 16px;
+    font-weight: normal;
+    color: #203353;
+}
+
+.jobsLocation{
+    font-size: 14px;
+    font-weight: normal;
+    color: #203353;
+}
+
+.jobsUrgentBox{
+    width: 120px;
+    height: 24px;
+    border: 1px solid #F91313;
+    border-radius: 7px;
+    padding: 0 8px;
+}
+
+.jobsUrgrnt{
+    font-size: 14px;
+    font-weight: 500;
+    color: #F91313;
+}
+
+.jobBtn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #EAEEF5;
+    background: #203353;
+    font-weight: 700;
+}
+
+.jobsWishListBox{
+    width: 40px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #203353;
+    cursor: pointer;
+}
+
+.nextJobFeed{
+    margin-top: 60px;
+}
+
+.jobBox{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+    background: #fff;
+    color: #203353;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobBox.active{
+    background: #203353;
+    color: #EAEEF5;
+}

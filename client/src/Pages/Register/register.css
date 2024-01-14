@@ -1,0 +1,123 @@
+.regPg{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.regBox{
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background: #D4DFF2;
+}
+
+.regForm{
+    flex: 6;
+}
+
+.regImg{
+    flex: 6;
+}
+
+@media (max-width: 768px) {
+    .regImg{
+        display: none;
+    }
+}
+
+.imgBox{
+    width: 100%;
+    height: 80vh;
+    border: none;
+    background-image: url(../../Images/loginImg.jpeg);
+    background-size: cover;
+    position: relative;
+}
+
+.imgBoxOverlay{
+    width: 100%;
+    height: 80vh;
+    background: rgba(32, 51, 83, 0.6);
+    position: absolute;
+}
+
+.formBox{
+    width: 100%;
+    height: 300px;
+    background: #D4DFF2;
+    padding: 26px;
+}
+
+.regWelcome{
+    font-weight: bold;
+    color: #203353;
+    font-size: 18px;
+}
+
+.regForm > input{
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #203353;
+    background-color: #EAEEF5;
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+}
+
+.regisBtn{
+    padding: 8px 15px;
+    background: #203353;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.regBtn{
+    border: none;
+    background: none;
+    color: #203353;
+    font-size: 16px;
+}
+
+.regBtn:hover{
+    color: #203353;
+    text-decoration: underline;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    font-size: 20px;
+}
+
+.formInput{
+    border: none;
+    border-bottom: 1px solid #203353;
+    background: none;
+}
+
+.formInput:focus{
+    border-bottom: 1px solid #203353;
+    outline: none;
+}
+
+/* .inputEmail{
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 25px;
+    font-size: 10px;
+
+    
+} */
+
+
+

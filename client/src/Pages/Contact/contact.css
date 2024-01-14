@@ -1,0 +1,178 @@
+.contactUs{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #203353;
+}
+
+/* .contactFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.contactBoxBig{
+    flex: 6;
+}
+
+.contactBoxSm{
+    flex: 2;
+}
+
+.contactDetails{
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+    background-color: #D4DFF2;;
+}
+
+@media (max-width: 768px) {
+    .contactDetails{
+        height: auto;
+    }
+ }
+
+.contactInfo{
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+    background-color: #203353;
+}
+
+@media (max-width: 768px) {
+    .contactInfo{
+        height: 600px;
+    }
+ }
+
+.contactDetailsHead{
+    font-size: 20px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.contactDetailsBody{
+    font-size: 14px;
+    font-weight: 400;
+    color: #203353;
+}
+
+/* .form{
+    margin-top: 40px;
+} */
+
+.formItem{
+    display: flex;  
+}
+
+@media (max-width: 768px) {
+    .formItem{
+        display: block;
+    }
+ }
+
+.formItemContainer{
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .formItemContainer{
+        margin-right: 0;
+    }
+ }
+
+.formItemContainer > label{
+    margin: 7px 0px;
+}
+
+#formInputItem{
+    width: 100%;
+    border: 1px solid #203353;
+    background-color: #EAEEF5;
+    border-radius: 8px;
+    outline: none;
+}
+
+#formInputItem:invalid{
+    border: 2px solid red;
+}
+
+[type="checkbox"]{
+    visibility: hidden;
+}
+
+[type="checkbox"] + label{
+    position: relative;
+    padding-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 18px;
+}
+
+[type="checkbox"] + label::before{
+    content: "";
+    position: absolute;
+    left: -22px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    outline: 1px solid #203353;
+    background: #fff;
+}
+
+[type="checkbox"]:checked + label::before{
+    content: "";
+    position: absolute;
+    left: -22px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+[type="checkbox"]:checked + label::after{
+    content: "";
+    position: absolute;
+    left: -22px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    background-image: url(../../Images/_Checkbox\ base.svg);
+    background-size: cover;
+}
+
+#btn__submit{
+    padding: 8px 15px;
+    background: #203353;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.contactInfoHead{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;   
+}
+
+.contactInfoBody{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.contactInfoWork{
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;   
+}
+
+.contactIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;  
+}

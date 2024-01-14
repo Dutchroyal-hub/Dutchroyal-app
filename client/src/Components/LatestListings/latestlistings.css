@@ -1,0 +1,73 @@
+.listingHeader{
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.listingTxt{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #203353;
+}
+
+.listingBody{
+    display: flex;
+    justify-content: center;
+}
+
+.listingCard{
+    max-width: 298px;
+    height: 300px;
+    background: #D4DFF2;
+}
+
+.listinsgsHeader{
+    font-size: 22px;
+    font-weight: 700;
+    color: #203353;
+}
+
+.listingsTxt{
+    font-size: 16px;
+    font-weight: normal;
+    color: #203353;
+}
+
+.listingLocation{
+    font-size: 14px;
+    font-weight: normal;
+    color: #203353;
+}
+
+.urgentBox{
+    width: 120px;
+    height: 24px;
+    border: 1px solid #F91313;
+    border-radius: 7px;
+    padding: 0 8px;
+}
+
+.listingUrgrnt{
+    font-size: 14px;
+    font-weight: 500;
+    color: #F91313;
+}
+
+.jobBtn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #EAEEF5;
+    background: #203353;
+    font-weight: 700;
+}
+
+.wishListBox{
+    width: 40px;
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #203353;
+    cursor: pointer;
+}
